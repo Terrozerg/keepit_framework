@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="UITestSuite" parallel="methods" thread-count="2" >
+    <test name="UITests">
+        <classes>
+            <class name="tests.UITests">
+                <methods>
+                    <include name="loginTestUi"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
