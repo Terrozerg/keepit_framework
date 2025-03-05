@@ -28,7 +28,6 @@ jobs:
       with:
           distribution: 'oracle'
           java-version: '20'
-          cache: maven
     - name: Run with Maven
       run: mvn clean test
 
