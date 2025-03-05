@@ -27,7 +27,7 @@
         <aspectj.version>1.9.22.1</aspectj.version>
         <jackson.version>2.18.2</jackson.version>
 
-        <suiteXmlFile>src/main/resources/xmlSuites/SmokeTestSuite.xml</suiteXmlFile>
+        <suiteXmlFile>src/main/resources/xmlSuites/APITestSuite.xml</suiteXmlFile>
         <threadCount>2</threadCount>
     </properties>
 
